@@ -1,0 +1,8 @@
+{
+    "servers": [
+        {
+            "name": "*.ns.example.com",
+            "protocol": "h2"
+        },
+    ]
+}

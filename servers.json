@@ -1,8 +1,10 @@
 {
     "servers": [
         {
-            "name": "*.ns.example.com",
-            "protocol": "h2"
-        },
+            "name": "b.root-servers.net",
+            "protocol": "dot",
+            "comment": "USC/ISI's DNS over TLS support for the B-Root is experimental. See https://b.root-servers.org/research/tls.html.",
+            "trust_anchor": "-----BEGIN CERTIFICATE-----\nMIIEHzCCAoegAwIBAgIUGkzBrzwY0IEo20CQzUDcJ6KslwUwDQYJKoZIhvcNAQEL\nBQAwJzElMCMGA1UEAxMcQi1Sb290IENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0y\nMDA2MjIxNzQ5NTRaFw0zMDA2MjAxNzUwMTFaMCcxJTAjBgNVBAMTHEItUm9vdCBD\nZXJ0aWZpY2F0ZSBBdXRob3JpdHkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK\nAoIBgQDFJZHe3e7y70qN+eoZJdCdnd8zM5XULyl21+DunO+t+9vTUWljU6E/374R\n2Kr1iZOcG8qsGaLZwsTVKQ1KcZysk4yFHMnGwMJMSCkC6RQsRLLMFUtEZyShLIq2\nWWnvTGX0a4WbRTU2DbDCDv/IQzjwoCx1MA0liLWUTqtu1/Mgh/Ur7zHW2eQLqxqX\nHlBLYMSRR4RdxeWBKTI9/ioH3XK5OeAfWQfVN26shsYbvCA3XJBR2KmaYtgnFJYR\n/oCz3sHbrvM5zNmmTeYJlou6Bc+ghrUPumZHztqYGomg39DPraVnWVpE2lYF8YXS\nHBG4XvgzN8aQ/+PNITqr+1hZJM9YsDNALiIbSPVc0z9DLlArwXcLx3vaER2JUAN4\nT49cX60c/IqONKXTWcv1QhDsjZi2W1Z2yW99tyLC47jSdb42fuZI+zbP2Gu8YSEF\n7Ovh6/gDLKQQ1iM500AUZ2KhSPxV8rz60aPMMPNQgqa+E3fOyCagP/rsxTWYqDD+\nfU9qC3sCAwEAAaNDMEEwDwYDVR0TAQH/BAUwAwEB/zAPBgNVHQ8BAf8EBQMDB4QA\nMB0GA1UdDgQWBBSE3dxYGgoAmDyoMX/lso64NVnfmjANBgkqhkiG9w0BAQsFAAOC\nAYEAqr/uVGcRVnIbTjPD4lm2lKuskbjaMUlxVMmSKq9eWxR3rsVMgZptYwFlDkZ3\nkUQ+qqWZVYXZiLTcDn/zW8qRjhMzAH+buQIvHd2ffpHppKcfhF6wclBYal8b0Fgg\nO0QxKtaFORCHoafXIl7wWPTMErOM9lNwxugNl4m9E4RcpadABY/734Qhy6Dwcu5s\n7FgC+lS7/uWXE+/VBB66xOr2Qc7WhXlXLIDXNXmztgIG5bBtsACzjl1ssmQ0bsn/\nJxaJDXCpPuIoOprqX2Xj/+uyqRwTuq++d5v6HeaE621smNahFf6H/Q1egEMUDuQ6\nBRnZkZZk5zOamYSdnXXLlD/luOsnXCdY0WRJ6v7hY1f1tLekJ5oE8jDPd0dTEinF\n24/LIyl7DT5CUUFARFC72pvcC3qoV8UnJT4G4UPcZEGuGdZF8ELgYPJpjeov1SWX\nz4EgqgnYlBuCGYuCcRUlTTWQAyh4Duj2k7Q3xECT4pMBN6VUS/6hMWQnAI374ZI6\nECua\n-----END CERTIFICATE-----\n"
+        }
     ]
 }
